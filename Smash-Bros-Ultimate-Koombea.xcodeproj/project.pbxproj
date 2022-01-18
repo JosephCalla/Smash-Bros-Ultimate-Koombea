@@ -9,14 +9,25 @@
 /* Begin PBXBuildFile section */
 		7207621227970EA4000E56AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207621127970EA4000E56AF /* AppDelegate.swift */; };
 		7207621427970EA4000E56AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207621327970EA4000E56AF /* SceneDelegate.swift */; };
-		7207621627970EA4000E56AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207621527970EA4000E56AF /* ViewController.swift */; };
-		7207621927970EA4000E56AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207621727970EA4000E56AF /* Main.storyboard */; };
 		7207621C27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7207621A27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld */; };
 		7207621E27970EA4000E56AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207621D27970EA4000E56AF /* Assets.xcassets */; };
 		7207622127970EA5000E56AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207621F27970EA5000E56AF /* LaunchScreen.storyboard */; };
 		7207622C27970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207622B27970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaTests.swift */; };
 		7207623627970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207623527970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITests.swift */; };
 		7207623827970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207623727970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITestsLaunchTests.swift */; };
+		720762482797167A000E56AF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762442797167A000E56AF /* OnboardingView.swift */; };
+		720762492797167A000E56AF /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762452797167A000E56AF /* OnboardingViewModel.swift */; };
+		7207624A2797167A000E56AF /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762462797167A000E56AF /* Onboarding.swift */; };
+		7207624B2797167A000E56AF /* OnboardingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762472797167A000E56AF /* OnboardingUI.swift */; };
+		7207626027971949000E56AF /* DetailFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625C27971949000E56AF /* DetailFighterView.swift */; };
+		7207626127971949000E56AF /* DetailFighterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625D27971949000E56AF /* DetailFighterViewModel.swift */; };
+		7207626227971949000E56AF /* DetailFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625E27971949000E56AF /* DetailFighter.swift */; };
+		7207626327971949000E56AF /* DetailFighterUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625F27971949000E56AF /* DetailFighterUI.swift */; };
+		7207626B27971995000E56AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626727971995000E56AF /* HomeView.swift */; };
+		7207626C27971995000E56AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626827971995000E56AF /* HomeViewModel.swift */; };
+		7207626D27971995000E56AF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626927971995000E56AF /* Home.swift */; };
+		7207626E27971995000E56AF /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626A27971995000E56AF /* HomeUI.swift */; };
+		72076271279719FF000E56AF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72076270279719FF000E56AF /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +51,6 @@
 		7207620E27970EA4000E56AF /* Smash-Bros-Ultimate-Koombea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smash-Bros-Ultimate-Koombea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207621127970EA4000E56AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7207621327970EA4000E56AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7207621527970EA4000E56AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7207621827970EA4000E56AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7207621B27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smash_Bros_Ultimate_Koombea.xcdatamodel; sourceTree = "<group>"; };
 		7207621D27970EA4000E56AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7207622027970EA5000E56AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		7207623127970EA5000E56AF /* Smash-Bros-Ultimate-KoombeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smash-Bros-Ultimate-KoombeaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207623527970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smash_Bros_Ultimate_KoombeaUITests.swift; sourceTree = "<group>"; };
 		7207623727970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smash_Bros_Ultimate_KoombeaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		720762442797167A000E56AF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		720762452797167A000E56AF /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		720762462797167A000E56AF /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		720762472797167A000E56AF /* OnboardingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUI.swift; sourceTree = "<group>"; };
+		7207625C27971949000E56AF /* DetailFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterView.swift; sourceTree = "<group>"; };
+		7207625D27971949000E56AF /* DetailFighterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterViewModel.swift; sourceTree = "<group>"; };
+		7207625E27971949000E56AF /* DetailFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighter.swift; sourceTree = "<group>"; };
+		7207625F27971949000E56AF /* DetailFighterUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterUI.swift; sourceTree = "<group>"; };
+		7207626727971995000E56AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7207626827971995000E56AF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7207626927971995000E56AF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7207626A27971995000E56AF /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		72076270279719FF000E56AF /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +123,10 @@
 		7207621027970EA4000E56AF /* Smash-Bros-Ultimate-Koombea */ = {
 			isa = PBXGroup;
 			children = (
-				7207621127970EA4000E56AF /* AppDelegate.swift */,
-				7207621327970EA4000E56AF /* SceneDelegate.swift */,
-				7207621527970EA4000E56AF /* ViewController.swift */,
-				7207621727970EA4000E56AF /* Main.storyboard */,
-				7207621D27970EA4000E56AF /* Assets.xcassets */,
+				7207626527971973000E56AF /* Resource */,
+				7207624C279716AD000E56AF /* Onboarding */,
+				720762662797198B000E56AF /* Home */,
+				7207626427971955000E56AF /* DetailFighter */,
 				7207621F27970EA5000E56AF /* LaunchScreen.storyboard */,
 				7207622227970EA5000E56AF /* Info.plist */,
 				7207621A27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld */,
@@ -128,6 +149,122 @@
 				7207623727970EA5000E56AF /* Smash_Bros_Ultimate_KoombeaUITestsLaunchTests.swift */,
 			);
 			path = "Smash-Bros-Ultimate-KoombeaUITests";
+			sourceTree = "<group>";
+		};
+		7207624C279716AD000E56AF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7207627827971BF1000E56AF /* ViewModel */,
+				7207627727971BE7000E56AF /* Model */,
+				7207627527971BD0000E56AF /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7207626427971955000E56AF /* DetailFighter */ = {
+			isa = PBXGroup;
+			children = (
+				7207627B27971EA1000E56AF /* View */,
+				7207627A27971E9C000E56AF /* Model */,
+				7207627927971E93000E56AF /* ViewModel */,
+			);
+			path = DetailFighter;
+			sourceTree = "<group>";
+		};
+		7207626527971973000E56AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7207621D27970EA4000E56AF /* Assets.xcassets */,
+				7207621127970EA4000E56AF /* AppDelegate.swift */,
+				7207621327970EA4000E56AF /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		720762662797198B000E56AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7207627427971BB9000E56AF /* ViewModel */,
+				7207627327971BB2000E56AF /* View */,
+				7207627227971BA2000E56AF /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7207627227971BA2000E56AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7207626927971995000E56AF /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7207627327971BB2000E56AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7207626727971995000E56AF /* HomeView.swift */,
+				72076270279719FF000E56AF /* Home.storyboard */,
+				7207626A27971995000E56AF /* HomeUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7207627427971BB9000E56AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7207626827971995000E56AF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7207627527971BD0000E56AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				720762472797167A000E56AF /* OnboardingUI.swift */,
+				720762442797167A000E56AF /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7207627727971BE7000E56AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				720762462797167A000E56AF /* Onboarding.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7207627827971BF1000E56AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				720762452797167A000E56AF /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7207627927971E93000E56AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7207625D27971949000E56AF /* DetailFighterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7207627A27971E9C000E56AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7207625E27971949000E56AF /* DetailFighter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7207627B27971EA1000E56AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7207625C27971949000E56AF /* DetailFighterView.swift */,
+				7207625F27971949000E56AF /* DetailFighterUI.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +371,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72076271279719FF000E56AF /* Home.storyboard in Resources */,
 				7207622127970EA5000E56AF /* LaunchScreen.storyboard in Resources */,
 				7207621E27970EA4000E56AF /* Assets.xcassets in Resources */,
-				7207621927970EA4000E56AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +398,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7207621627970EA4000E56AF /* ViewController.swift in Sources */,
+				720762492797167A000E56AF /* OnboardingViewModel.swift in Sources */,
 				7207621227970EA4000E56AF /* AppDelegate.swift in Sources */,
+				7207626027971949000E56AF /* DetailFighterView.swift in Sources */,
+				7207624A2797167A000E56AF /* Onboarding.swift in Sources */,
 				7207621C27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld in Sources */,
+				7207626327971949000E56AF /* DetailFighterUI.swift in Sources */,
+				7207626E27971995000E56AF /* HomeUI.swift in Sources */,
+				7207626D27971995000E56AF /* Home.swift in Sources */,
+				720762482797167A000E56AF /* OnboardingView.swift in Sources */,
+				7207626127971949000E56AF /* DetailFighterViewModel.swift in Sources */,
+				7207626C27971995000E56AF /* HomeViewModel.swift in Sources */,
+				7207624B2797167A000E56AF /* OnboardingUI.swift in Sources */,
+				7207626B27971995000E56AF /* HomeView.swift in Sources */,
+				7207626227971949000E56AF /* DetailFighter.swift in Sources */,
 				7207621427970EA4000E56AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7207621727970EA4000E56AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7207621827970EA4000E56AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7207621F27970EA5000E56AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -448,7 +588,7 @@
 				INFOPLIST_FILE = "Smash-Bros-Ultimate-Koombea/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +616,7 @@
 				INFOPLIST_FILE = "Smash-Bros-Ultimate-Koombea/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
