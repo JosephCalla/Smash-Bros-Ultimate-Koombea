@@ -3,44 +3,54 @@
 //  Smash-Bros-Ultimate-Koombea
 //
 //  Created Joseph Estanislao Calla Moreyra on 18/01/22.
-//  Copyright © 2022 ___ORGANIZATIONNAME___. All rights reserved.
-//  Generated using MVVM Module Generator by Mohamad Kaakati
-//  https://github.com/Kaakati/MVVM-Template-Generator
-//
+
 
 import UIKit
 
 protocol OnboardingViewProtocol {
-    func viewWillPresent(data: Onboarding)
+//    func viewWillPresent(data: Onboarding)
 }
 
-class OnboardingView: UIViewController, OnboardingViewProtocol {
+class OnboardingView: UIViewController {
     
-    private var ui = OnboardingUI()
-    var viewModel : OnboardingViewModel! {
-        willSet {
-            newValue.view = self
-        }
-    }
-
+    @IBOutlet weak var onboardingCollectionView: UICollectionView!
+    var slides: [OnboardingSlide] = []
+    
+//    var viewModel : OnboardingViewModel! {
+//        willSet {
+//            newValue.view = self
+//        }
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        viewModel.fetchData()
-    }
-    
-    override func loadView() {
-        ui.delegate = self
-        view = ui
-    }
-    
-    func viewWillPresent(data: Onboarding) {
-        ui.object = data
+        
+        self.onboardingCollectionView?.delegate = self
+        self.onboardingCollectionView?.dataSource = self
+        
+        slides = [OnboardingSlide(title: "Access our Extented Catalog",
+                                  image: UIImage(named: "fighter-1")!),
+                  OnboardingSlide(title: "Filter Universes",
+                                  image: UIImage(named: "fighter-2")!),
+                  OnboardingSlide(title: "And More",
+                                  image: UIImage(named: "fighter-3")!)]
+        
+//        viewModel.fetchData()
     }
 }
 
-extension OnboardingView : OnboardingUIDelegate {
-    func uiDidSelect(object: Onboarding) {
-        viewModel.didReceiveUISelect(object: object)
+extension OnboardingView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return slides.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: OnboardingCollectionViewCell.identifier, for: indexPath) as! OnboardingCollectionViewCell
+        cell.setup(slides[indexPath.row])
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.frame.width, height: collectionView.frame.width)
     }
 }
