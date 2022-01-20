@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CCA2069F45C224F19F3292A /* Pods_Smash_Bros_Ultimate_Koombea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6CB1EF76DEB18C403ADF22 /* Pods_Smash_Bros_Ultimate_Koombea.framework */; };
 		7207621227970EA4000E56AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207621127970EA4000E56AF /* AppDelegate.swift */; };
 		7207621C27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7207621A27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld */; };
 		7207621E27970EA4000E56AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7207621D27970EA4000E56AF /* Assets.xcassets */; };
@@ -17,20 +18,30 @@
 		720762482797167A000E56AF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762442797167A000E56AF /* OnboardingView.swift */; };
 		720762492797167A000E56AF /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762452797167A000E56AF /* OnboardingViewModel.swift */; };
 		7207624A2797167A000E56AF /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720762462797167A000E56AF /* Onboarding.swift */; };
-		7207626027971949000E56AF /* DetailFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625C27971949000E56AF /* DetailFighterView.swift */; };
-		7207626127971949000E56AF /* DetailFighterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625D27971949000E56AF /* DetailFighterViewModel.swift */; };
-		7207626227971949000E56AF /* DetailFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625E27971949000E56AF /* DetailFighter.swift */; };
-		7207626327971949000E56AF /* DetailFighterUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207625F27971949000E56AF /* DetailFighterUI.swift */; };
-		7207626B27971995000E56AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626727971995000E56AF /* HomeView.swift */; };
 		7207626C27971995000E56AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626827971995000E56AF /* HomeViewModel.swift */; };
-		7207626D27971995000E56AF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207626927971995000E56AF /* Home.swift */; };
 		72076271279719FF000E56AF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72076270279719FF000E56AF /* Home.storyboard */; };
 		7207627D27972D82000E56AF /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7207627C27972D82000E56AF /* Onboarding.storyboard */; };
 		7207628027975390000E56AF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207627F27975390000E56AF /* UIView.swift */; };
 		72076283279770D7000E56AF /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72076282279770D7000E56AF /* OnboardingCollectionViewCell.swift */; };
 		723A95A62797C241007163F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A95A52797C241007163F3 /* HomeViewController.swift */; };
+		724EA5682799DFA4001AEC6E /* FighterDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724EA5672799DFA4001AEC6E /* FighterDetail.storyboard */; };
+		724EA56A2799DFCA001AEC6E /* FighterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */; };
+		724EA56C2799EE14001AEC6E /* FighterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA56B2799EE14001AEC6E /* FighterDetail.swift */; };
+		72BDED1A2798BB3B005EB010 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED192798BB3B005EB010 /* Endpoint.swift */; };
+		72BDED1C2798BBBA005EB010 /* FighterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */; };
+		72BDED1E2798BF07005EB010 /* FighterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1D2798BF07005EB010 /* FighterResponse.swift */; };
+		72BDED202798BF11005EB010 /* FighterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1F2798BF11005EB010 /* FighterRequest.swift */; };
+		72BDED242798BFB9005EB010 /* UniverseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED232798BFB9005EB010 /* UniverseResponse.swift */; };
+		72BDED272798C058005EB010 /* MyNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED262798C058005EB010 /* MyNetworking.swift */; };
+		72BDED2B2798D04E005EB010 /* UniverseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED2A2798D04E005EB010 /* UniverseEndpoint.swift */; };
 		72FF96A92798690D00B68493 /* FighterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF96A72798690D00B68493 /* FighterTableViewCell.swift */; };
 		72FF96AA2798690D00B68493 /* FighterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72FF96A82798690D00B68493 /* FighterTableViewCell.xib */; };
+		72FF96AF2798988D00B68493 /* CategoryFighterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF96AD2798988D00B68493 /* CategoryFighterCollectionViewCell.swift */; };
+		72FF96B02798988D00B68493 /* CategoryFighterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72FF96AE2798988D00B68493 /* CategoryFighterCollectionViewCell.xib */; };
+		72FF96B22798ABB900B68493 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF96B12798ABB900B68493 /* Fighter.swift */; };
+		72FF96B52798B73D00B68493 /* FighterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF96B42798B73D00B68493 /* FighterService.swift */; };
+		86533F77CA8DEFACDBE5E357 /* Pods_Smash_Bros_Ultimate_KoombeaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F04B7A51948198B8F00246D /* Pods_Smash_Bros_Ultimate_KoombeaTests.framework */; };
+		AA4F899778DD277E4268E241 /* Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C4BAF3F6D6E06589218A8A /* Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124049AA3CA1DC1F8BD0BBDB /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		341E999E692849A954BC57F9 /* Pods-Smash-Bros-Ultimate-Koombea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-Koombea.release.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-Koombea/Pods-Smash-Bros-Ultimate-Koombea.release.xcconfig"; sourceTree = "<group>"; };
+		42C4BAF3F6D6E06589218A8A /* Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6CB1EF76DEB18C403ADF22 /* Pods_Smash_Bros_Ultimate_Koombea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash_Bros_Ultimate_Koombea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207620E27970EA4000E56AF /* Smash-Bros-Ultimate-Koombea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smash-Bros-Ultimate-Koombea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207621127970EA4000E56AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7207621B27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smash_Bros_Ultimate_Koombea.xcdatamodel; sourceTree = "<group>"; };
@@ -65,20 +80,33 @@
 		720762442797167A000E56AF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		720762452797167A000E56AF /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		720762462797167A000E56AF /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		7207625C27971949000E56AF /* DetailFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterView.swift; sourceTree = "<group>"; };
-		7207625D27971949000E56AF /* DetailFighterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterViewModel.swift; sourceTree = "<group>"; };
-		7207625E27971949000E56AF /* DetailFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighter.swift; sourceTree = "<group>"; };
-		7207625F27971949000E56AF /* DetailFighterUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFighterUI.swift; sourceTree = "<group>"; };
-		7207626727971995000E56AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7207626827971995000E56AF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		7207626927971995000E56AF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		72076270279719FF000E56AF /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		7207627C27972D82000E56AF /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		7207627F27975390000E56AF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		72076282279770D7000E56AF /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		723A95A52797C241007163F3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		724EA5672799DFA4001AEC6E /* FighterDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FighterDetail.storyboard; sourceTree = "<group>"; };
+		724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetailViewController.swift; sourceTree = "<group>"; };
+		724EA56B2799EE14001AEC6E /* FighterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetail.swift; sourceTree = "<group>"; };
+		72BDED192798BB3B005EB010 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterEndpoint.swift; sourceTree = "<group>"; };
+		72BDED1D2798BF07005EB010 /* FighterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterResponse.swift; sourceTree = "<group>"; };
+		72BDED1F2798BF11005EB010 /* FighterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterRequest.swift; sourceTree = "<group>"; };
+		72BDED232798BFB9005EB010 /* UniverseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseResponse.swift; sourceTree = "<group>"; };
+		72BDED262798C058005EB010 /* MyNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworking.swift; sourceTree = "<group>"; };
+		72BDED2A2798D04E005EB010 /* UniverseEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseEndpoint.swift; sourceTree = "<group>"; };
 		72FF96A72798690D00B68493 /* FighterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterTableViewCell.swift; sourceTree = "<group>"; };
 		72FF96A82798690D00B68493 /* FighterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FighterTableViewCell.xib; sourceTree = "<group>"; };
+		72FF96AD2798988D00B68493 /* CategoryFighterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFighterCollectionViewCell.swift; sourceTree = "<group>"; };
+		72FF96AE2798988D00B68493 /* CategoryFighterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryFighterCollectionViewCell.xib; sourceTree = "<group>"; };
+		72FF96B12798ABB900B68493 /* Fighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighter.swift; sourceTree = "<group>"; };
+		72FF96B42798B73D00B68493 /* FighterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterService.swift; sourceTree = "<group>"; };
+		7880EC95C12C10628E3B23C9 /* Pods-Smash-Bros-Ultimate-KoombeaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-KoombeaTests.release.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-KoombeaTests/Pods-Smash-Bros-Ultimate-KoombeaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F04B7A51948198B8F00246D /* Pods_Smash_Bros_Ultimate_KoombeaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash_Bros_Ultimate_KoombeaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F7D8D896FC2D1BC04037AC /* Pods-Smash-Bros-Ultimate-KoombeaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-KoombeaTests.debug.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-KoombeaTests/Pods-Smash-Bros-Ultimate-KoombeaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF4EE869F45A2799D514991 /* Pods-Smash-Bros-Ultimate-Koombea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-Koombea.debug.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-Koombea/Pods-Smash-Bros-Ultimate-Koombea.debug.xcconfig"; sourceTree = "<group>"; };
+		C475120CA6CF38E09EB33602 /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.release.xcconfig"; path = "Target Support Files/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCA2069F45C224F19F3292A /* Pods_Smash_Bros_Ultimate_Koombea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86533F77CA8DEFACDBE5E357 /* Pods_Smash_Bros_Ultimate_KoombeaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +130,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4F899778DD277E4268E241 /* Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D038F4359E7706CB2E12DC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4EE869F45A2799D514991 /* Pods-Smash-Bros-Ultimate-Koombea.debug.xcconfig */,
+				341E999E692849A954BC57F9 /* Pods-Smash-Bros-Ultimate-Koombea.release.xcconfig */,
+				124049AA3CA1DC1F8BD0BBDB /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.debug.xcconfig */,
+				C475120CA6CF38E09EB33602 /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.release.xcconfig */,
+				B5F7D8D896FC2D1BC04037AC /* Pods-Smash-Bros-Ultimate-KoombeaTests.debug.xcconfig */,
+				7880EC95C12C10628E3B23C9 /* Pods-Smash-Bros-Ultimate-KoombeaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7207620527970EA4000E56AF = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +157,8 @@
 				7207622A27970EA5000E56AF /* Smash-Bros-Ultimate-KoombeaTests */,
 				7207623427970EA5000E56AF /* Smash-Bros-Ultimate-KoombeaUITests */,
 				7207620F27970EA4000E56AF /* Products */,
+				2D038F4359E7706CB2E12DC3 /* Pods */,
+				B06082D60D71E62E2782A100 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,7 +175,7 @@
 		7207621027970EA4000E56AF /* Smash-Bros-Ultimate-Koombea */ = {
 			isa = PBXGroup;
 			children = (
-				7207626527971973000E56AF /* Resource */,
+				72FF96B32798B71100B68493 /* Networking */,
 				7207624C279716AD000E56AF /* Onboarding */,
 				720762662797198B000E56AF /* Home */,
 				7207626427971955000E56AF /* DetailFighter */,
@@ -200,7 +246,7 @@
 		7207627227971BA2000E56AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7207626927971995000E56AF /* Home.swift */,
+				72FF96B12798ABB900B68493 /* Fighter.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,10 +254,9 @@
 		7207627327971BB2000E56AF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				72FF96A6279868EB00B68493 /* Cell */,
-				7207626727971995000E56AF /* HomeView.swift */,
 				72076270279719FF000E56AF /* Home.storyboard */,
 				723A95A52797C241007163F3 /* HomeViewController.swift */,
+				72FF96A6279868EB00B68493 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,7 +298,6 @@
 		7207627927971E93000E56AF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7207625D27971949000E56AF /* DetailFighterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -261,7 +305,7 @@
 		7207627A27971E9C000E56AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7207625E27971949000E56AF /* DetailFighter.swift */,
+				724EA56B2799EE14001AEC6E /* FighterDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -269,8 +313,8 @@
 		7207627B27971EA1000E56AF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7207625C27971949000E56AF /* DetailFighterView.swift */,
-				7207625F27971949000E56AF /* DetailFighterUI.swift */,
+				724EA5672799DFA4001AEC6E /* FighterDetail.storyboard */,
+				724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,13 +335,81 @@
 			path = CollectionCell;
 			sourceTree = "<group>";
 		};
+		72BDED252798C035005EB010 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				72BDED262798C058005EB010 /* MyNetworking.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		72BDED282798C0A0005EB010 /* Fighter */ = {
+			isa = PBXGroup;
+			children = (
+				72FF96B42798B73D00B68493 /* FighterService.swift */,
+				72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */,
+				72BDED1D2798BF07005EB010 /* FighterResponse.swift */,
+				72BDED1F2798BF11005EB010 /* FighterRequest.swift */,
+			);
+			path = Fighter;
+			sourceTree = "<group>";
+		};
+		72BDED292798C0B6005EB010 /* Universe */ = {
+			isa = PBXGroup;
+			children = (
+				72BDED232798BFB9005EB010 /* UniverseResponse.swift */,
+				72BDED2A2798D04E005EB010 /* UniverseEndpoint.swift */,
+			);
+			path = Universe;
+			sourceTree = "<group>";
+		};
 		72FF96A6279868EB00B68493 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72FF96AC279897A700B68493 /* Fighter */,
+				72FF96AB2798979E00B68493 /* CategoryFighter */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		72FF96AB2798979E00B68493 /* CategoryFighter */ = {
+			isa = PBXGroup;
+			children = (
+				72FF96AD2798988D00B68493 /* CategoryFighterCollectionViewCell.swift */,
+				72FF96AE2798988D00B68493 /* CategoryFighterCollectionViewCell.xib */,
+			);
+			path = CategoryFighter;
+			sourceTree = "<group>";
+		};
+		72FF96AC279897A700B68493 /* Fighter */ = {
 			isa = PBXGroup;
 			children = (
 				72FF96A72798690D00B68493 /* FighterTableViewCell.swift */,
 				72FF96A82798690D00B68493 /* FighterTableViewCell.xib */,
 			);
-			path = Cell;
+			path = Fighter;
+			sourceTree = "<group>";
+		};
+		72FF96B32798B71100B68493 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7207626527971973000E56AF /* Resource */,
+				72BDED292798C0B6005EB010 /* Universe */,
+				72BDED282798C0A0005EB010 /* Fighter */,
+				72BDED252798C035005EB010 /* Network */,
+				72BDED192798BB3B005EB010 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B06082D60D71E62E2782A100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6CB1EF76DEB18C403ADF22 /* Pods_Smash_Bros_Ultimate_Koombea.framework */,
+				42C4BAF3F6D6E06589218A8A /* Pods_Smash_Bros_Ultimate_Koombea_Smash_Bros_Ultimate_KoombeaUITests.framework */,
+				9F04B7A51948198B8F00246D /* Pods_Smash_Bros_Ultimate_KoombeaTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,9 +419,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207623B27970EA5000E56AF /* Build configuration list for PBXNativeTarget "Smash-Bros-Ultimate-Koombea" */;
 			buildPhases = (
+				195D6EE41935DEF97A312F35 /* [CP] Check Pods Manifest.lock */,
 				7207620A27970EA4000E56AF /* Sources */,
 				7207620B27970EA4000E56AF /* Frameworks */,
 				7207620C27970EA4000E56AF /* Resources */,
+				C9A308CDF7BA25A0B1087932 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +438,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207623E27970EA5000E56AF /* Build configuration list for PBXNativeTarget "Smash-Bros-Ultimate-KoombeaTests" */;
 			buildPhases = (
+				05B3C9BAFCBDD7B8AA114E5F /* [CP] Check Pods Manifest.lock */,
 				7207622327970EA5000E56AF /* Sources */,
 				7207622427970EA5000E56AF /* Frameworks */,
 				7207622527970EA5000E56AF /* Resources */,
@@ -342,9 +457,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7207624127970EA5000E56AF /* Build configuration list for PBXNativeTarget "Smash-Bros-Ultimate-KoombeaUITests" */;
 			buildPhases = (
+				869CE90CD71C0F65F5617BA1 /* [CP] Check Pods Manifest.lock */,
 				7207622D27970EA5000E56AF /* Sources */,
 				7207622E27970EA5000E56AF /* Frameworks */,
 				7207622F27970EA5000E56AF /* Resources */,
+				1890A6E571DFAE6E0BF21FD8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,8 +521,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FF96B02798988D00B68493 /* CategoryFighterCollectionViewCell.xib in Resources */,
 				72076271279719FF000E56AF /* Home.storyboard in Resources */,
 				7207622127970EA5000E56AF /* LaunchScreen.storyboard in Resources */,
+				724EA5682799DFA4001AEC6E /* FighterDetail.storyboard in Resources */,
 				7207621E27970EA4000E56AF /* Assets.xcassets in Resources */,
 				7207627D27972D82000E56AF /* Onboarding.storyboard in Resources */,
 				72FF96AA2798690D00B68493 /* FighterTableViewCell.xib in Resources */,
@@ -428,27 +547,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05B3C9BAFCBDD7B8AA114E5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smash-Bros-Ultimate-KoombeaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1890A6E571DFAE6E0BF21FD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		195D6EE41935DEF97A312F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smash-Bros-Ultimate-Koombea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		869CE90CD71C0F65F5617BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A308CDF7BA25A0B1087932 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea/Pods-Smash-Bros-Ultimate-Koombea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea/Pods-Smash-Bros-Ultimate-Koombea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash-Bros-Ultimate-Koombea/Pods-Smash-Bros-Ultimate-Koombea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7207620A27970EA4000E56AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FF96AF2798988D00B68493 /* CategoryFighterCollectionViewCell.swift in Sources */,
 				7207628027975390000E56AF /* UIView.swift in Sources */,
+				724EA56C2799EE14001AEC6E /* FighterDetail.swift in Sources */,
 				72FF96A92798690D00B68493 /* FighterTableViewCell.swift in Sources */,
 				720762492797167A000E56AF /* OnboardingViewModel.swift in Sources */,
+				724EA56A2799DFCA001AEC6E /* FighterDetailViewController.swift in Sources */,
 				7207621227970EA4000E56AF /* AppDelegate.swift in Sources */,
 				72076283279770D7000E56AF /* OnboardingCollectionViewCell.swift in Sources */,
-				7207626027971949000E56AF /* DetailFighterView.swift in Sources */,
+				72BDED1C2798BBBA005EB010 /* FighterEndpoint.swift in Sources */,
 				7207624A2797167A000E56AF /* Onboarding.swift in Sources */,
 				7207621C27970EA4000E56AF /* Smash_Bros_Ultimate_Koombea.xcdatamodeld in Sources */,
-				7207626327971949000E56AF /* DetailFighterUI.swift in Sources */,
-				7207626D27971995000E56AF /* Home.swift in Sources */,
+				72FF96B52798B73D00B68493 /* FighterService.swift in Sources */,
+				72BDED2B2798D04E005EB010 /* UniverseEndpoint.swift in Sources */,
+				72BDED272798C058005EB010 /* MyNetworking.swift in Sources */,
+				72FF96B22798ABB900B68493 /* Fighter.swift in Sources */,
+				72BDED1E2798BF07005EB010 /* FighterResponse.swift in Sources */,
+				72BDED242798BFB9005EB010 /* UniverseResponse.swift in Sources */,
+				72BDED1A2798BB3B005EB010 /* Endpoint.swift in Sources */,
 				720762482797167A000E56AF /* OnboardingView.swift in Sources */,
-				7207626127971949000E56AF /* DetailFighterViewModel.swift in Sources */,
 				723A95A62797C241007163F3 /* HomeViewController.swift in Sources */,
 				7207626C27971995000E56AF /* HomeViewModel.swift in Sources */,
-				7207626B27971995000E56AF /* HomeView.swift in Sources */,
-				7207626227971949000E56AF /* DetailFighter.swift in Sources */,
+				72BDED202798BF11005EB010 /* FighterRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +842,7 @@
 		};
 		7207623C27970EA5000E56AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF4EE869F45A2799D514991 /* Pods-Smash-Bros-Ultimate-Koombea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -642,6 +871,7 @@
 		};
 		7207623D27970EA5000E56AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341E999E692849A954BC57F9 /* Pods-Smash-Bros-Ultimate-Koombea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -670,6 +900,7 @@
 		};
 		7207623F27970EA5000E56AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F7D8D896FC2D1BC04037AC /* Pods-Smash-Bros-Ultimate-KoombeaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -695,6 +926,7 @@
 		};
 		7207624027970EA5000E56AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7880EC95C12C10628E3B23C9 /* Pods-Smash-Bros-Ultimate-KoombeaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -720,6 +952,7 @@
 		};
 		7207624227970EA5000E56AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124049AA3CA1DC1F8BD0BBDB /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -743,6 +976,7 @@
 		};
 		7207624327970EA5000E56AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C475120CA6CF38E09EB33602 /* Pods-Smash-Bros-Ultimate-Koombea-Smash-Bros-Ultimate-KoombeaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
