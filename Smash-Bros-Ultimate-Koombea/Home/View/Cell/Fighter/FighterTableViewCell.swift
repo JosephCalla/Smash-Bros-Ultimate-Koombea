@@ -41,7 +41,7 @@ class FighterTableViewCell: UITableViewCell {
     
     func setup(fighter: Fighter) {
         self.titleLabel.text = fighter.title
-        self.descriptionLabel.text = fighter.description
+        self.descriptionLabel.text = fighter.universe
         self.priceLabel.text = "Price: \(fighter.price)"
         self.downloadLabel.text = "Downloads: \(fighter.download)"
         self.rateLabel.text = "Rate: \(fighter.rate)"

@@ -27,6 +27,7 @@
 		724EA5682799DFA4001AEC6E /* FighterDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724EA5672799DFA4001AEC6E /* FighterDetail.storyboard */; };
 		724EA56A2799DFCA001AEC6E /* FighterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */; };
 		724EA56C2799EE14001AEC6E /* FighterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA56B2799EE14001AEC6E /* FighterDetail.swift */; };
+		72623B8E279A05F200F34514 /* UniverseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72623B8D279A05F200F34514 /* UniverseService.swift */; };
 		72BDED1A2798BB3B005EB010 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED192798BB3B005EB010 /* Endpoint.swift */; };
 		72BDED1C2798BBBA005EB010 /* FighterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */; };
 		72BDED1E2798BF07005EB010 /* FighterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1D2798BF07005EB010 /* FighterResponse.swift */; };
@@ -89,6 +90,7 @@
 		724EA5672799DFA4001AEC6E /* FighterDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FighterDetail.storyboard; sourceTree = "<group>"; };
 		724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetailViewController.swift; sourceTree = "<group>"; };
 		724EA56B2799EE14001AEC6E /* FighterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetail.swift; sourceTree = "<group>"; };
+		72623B8D279A05F200F34514 /* UniverseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseService.swift; sourceTree = "<group>"; };
 		72BDED192798BB3B005EB010 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterEndpoint.swift; sourceTree = "<group>"; };
 		72BDED1D2798BF07005EB010 /* FighterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterResponse.swift; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 			children = (
 				72BDED232798BFB9005EB010 /* UniverseResponse.swift */,
 				72BDED2A2798D04E005EB010 /* UniverseEndpoint.swift */,
+				72623B8D279A05F200F34514 /* UniverseService.swift */,
 			);
 			path = Universe;
 			sourceTree = "<group>";
@@ -669,6 +672,7 @@
 				72FF96B52798B73D00B68493 /* FighterService.swift in Sources */,
 				72BDED2B2798D04E005EB010 /* UniverseEndpoint.swift in Sources */,
 				72BDED272798C058005EB010 /* MyNetworking.swift in Sources */,
+				72623B8E279A05F200F34514 /* UniverseService.swift in Sources */,
 				72FF96B22798ABB900B68493 /* Fighter.swift in Sources */,
 				72BDED1E2798BF07005EB010 /* FighterResponse.swift in Sources */,
 				72BDED242798BFB9005EB010 /* UniverseResponse.swift in Sources */,

@@ -101,11 +101,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let detail = UIStoryboard.init(name: "FighterDetail", bundle: Bundle.main).instantiateViewController(withIdentifier: "detail") as? FighterDetailViewController else { return }
-//            let detailFighter = FighterDetail(title: fighter[indexPath.row].title,
-//                                              subtitle: fighter[indexPath.row].universe,
-//                                              descriptionT: fighter[indexPath.row].description,
-//                                              price: fighter[indexPath.row].price)
-//
+        
         detail.fighter = fighter[indexPath.row]
         self.navigationController?.pushViewController(detail, animated: true)
     }

@@ -7,7 +7,7 @@
 
 import Foundation
 // MARK: - UniverseResponse
-struct UniverseResponseElement: Codable {
+struct UniverseResponse: Codable {
     let objectID: String
     let name: String
     let universeDescription: String

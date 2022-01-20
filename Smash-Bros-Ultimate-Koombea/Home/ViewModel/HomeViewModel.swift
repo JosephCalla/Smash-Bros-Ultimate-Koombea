@@ -50,7 +50,7 @@ class HomeViewModel: HomeViewModelProtocol {
             for fighterData in response {
                 var fighter = Fighter(objectID: fighterData.objectID,
                                       title: fighterData.name,
-                                      description: fighterData.universe,
+                                      description: fighterData.fighterDescription,
                                       fighterIimageURL: fighterData.imageURL,
                                       universe: fighterData.universe,
                                       price: fighterData.price,
