@@ -28,6 +28,7 @@
 		724EA56A2799DFCA001AEC6E /* FighterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */; };
 		724EA56C2799EE14001AEC6E /* FighterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA56B2799EE14001AEC6E /* FighterDetail.swift */; };
 		72623B8E279A05F200F34514 /* UniverseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72623B8D279A05F200F34514 /* UniverseService.swift */; };
+		727CB5B7279B84EB00084366 /* UniverseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727CB5B6279B84EB00084366 /* UniverseRequest.swift */; };
 		72BDED1A2798BB3B005EB010 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED192798BB3B005EB010 /* Endpoint.swift */; };
 		72BDED1C2798BBBA005EB010 /* FighterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */; };
 		72BDED1E2798BF07005EB010 /* FighterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDED1D2798BF07005EB010 /* FighterResponse.swift */; };
@@ -91,6 +92,7 @@
 		724EA5692799DFCA001AEC6E /* FighterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetailViewController.swift; sourceTree = "<group>"; };
 		724EA56B2799EE14001AEC6E /* FighterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterDetail.swift; sourceTree = "<group>"; };
 		72623B8D279A05F200F34514 /* UniverseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseService.swift; sourceTree = "<group>"; };
+		727CB5B6279B84EB00084366 /* UniverseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniverseRequest.swift; sourceTree = "<group>"; };
 		72BDED192798BB3B005EB010 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		72BDED1B2798BBBA005EB010 /* FighterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterEndpoint.swift; sourceTree = "<group>"; };
 		72BDED1D2798BF07005EB010 /* FighterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterResponse.swift; sourceTree = "<group>"; };
@@ -362,6 +364,7 @@
 				72BDED232798BFB9005EB010 /* UniverseResponse.swift */,
 				72BDED2A2798D04E005EB010 /* UniverseEndpoint.swift */,
 				72623B8D279A05F200F34514 /* UniverseService.swift */,
+				727CB5B6279B84EB00084366 /* UniverseRequest.swift */,
 			);
 			path = Universe;
 			sourceTree = "<group>";
@@ -660,6 +663,7 @@
 			files = (
 				72FF96AF2798988D00B68493 /* CategoryFighterCollectionViewCell.swift in Sources */,
 				7207628027975390000E56AF /* UIView.swift in Sources */,
+				727CB5B7279B84EB00084366 /* UniverseRequest.swift in Sources */,
 				724EA56C2799EE14001AEC6E /* FighterDetail.swift in Sources */,
 				72FF96A92798690D00B68493 /* FighterTableViewCell.swift in Sources */,
 				720762492797167A000E56AF /* OnboardingViewModel.swift in Sources */,

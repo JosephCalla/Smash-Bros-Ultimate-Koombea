@@ -13,6 +13,7 @@ import Alamofire
 
 protocol HomeViewModelProtocol: AnyObject {
     func getFighters()
+    func getUnivers()
     func getCache(id:NSString) -> UIImage?
     
     var delegate: HomeViewModelDelegate? {get set}
@@ -21,11 +22,13 @@ protocol HomeViewModelProtocol: AnyObject {
 
 protocol HomeViewModelDelegate: AnyObject {
     func getFighters(fighters: [Fighter]?, error: Error?)
+    func getUniverse(universe: [UniverseResponse]?, error: Error?)
 }
 
 class HomeViewModel: HomeViewModelProtocol {
-    
+
     var service: FighterServiceProtocol
+    var serviceUniverse = UniverseService()
     var delegate: HomeViewModelDelegate?
     
     static let cache = NSCache<NSString, UIImage>()
@@ -35,6 +38,7 @@ class HomeViewModel: HomeViewModelProtocol {
     }
     
     func getFighters() {
+        
         let request = FighterEndPoint.getFightersByUniverse(fighter: "Mario")
         
         self.service.getFighters(request: FighterRequest()) {[weak self] response, error in
@@ -128,6 +132,20 @@ class HomeViewModel: HomeViewModelProtocol {
     
     func getCache(id:NSString ) -> UIImage? {
         return HomeViewModel.cache.object(forKey: id as NSString)
+    }
+    
+    func getUnivers() {
+        
+        
+        self.serviceUniverse.getUniverse(request: UniverserRequest()) {[weak self] response, error in
+            if let error = error {
+                self?.delegate?.getUniverse(universe: nil, error: error)
+                return
+            }
+            
+            guard let response = response else { return }
+            self?.delegate?.getUniverse(universe: response, error: error)
+        }
     }
 }
 

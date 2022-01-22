@@ -41,6 +41,7 @@ class HomeViewController: UIViewController {
     func registerCell() {
         tableView.register(UINib(nibName: "FighterTableViewCell", bundle: nil),
                            forCellReuseIdentifier: "fighterCell")
+        
         collectionView.register(UINib(nibName: "CategoryFighterCollectionViewCell", bundle: nil),
                                 forCellWithReuseIdentifier: "categoryFighterCell")
     }
@@ -110,8 +111,12 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 // MARK: HomeViewModelDelegate
 
 extension HomeViewController: HomeViewModelDelegate {
+    func getUniverse(universe: [UniverseResponse]?, error: Error?) {
+        
+    }
+    
     func getFighters(fighters: [Fighter]?, error: Error?) {
-        guard let fighters = fighters, fighters.count > 0 else { return }
+        guard let fighters = fighters else { return }
         let fighterWithImages = getImages(fighters: fighters)
         self.fighter = fighterWithImages
         tableView.reloadData()
