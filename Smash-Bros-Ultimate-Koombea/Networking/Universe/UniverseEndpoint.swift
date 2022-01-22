@@ -13,7 +13,7 @@ enum UniverseEndPoint: EndPoint {
     case getUniverses
     
     var apiKey: String {
-        return "?api_key=73b5d4714d05d7f1f1ac9d569f9d164f"
+        return ""
     }
     
     var baseURL: String {

@@ -15,15 +15,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var filterBarButton: UIBarButtonItem!
     
-    var viewModel: HomeViewModelProtocol = HomeViewModel(service: FighterService())
+    var viewModel: HomeViewModelProtocol = HomeViewModel(service: FighterService(), serviceUniverse: UniverseService())
     
+    var universe:[UniverseResponse] = []
     var fighter:[Fighter] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
         registerCell()
+        self.viewModel.getUniverses()
         self.viewModel.getFighters()
+        
         self.tableView.reloadData()
         self.collectionView.reloadData()
     }
@@ -87,16 +90,16 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return fighter.count
+        return universe.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "categoryFighterCell",
-                                                      for: indexPath) as? CategoryFighterCollectionViewCell
-        if fighter.count > 1 {
-            cell?.categoryButton.titleLabel?.text = fighter[indexPath.row].universe
+       guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "categoryFighterCell",
+                                                           for: indexPath) as? CategoryFighterCollectionViewCell else { return UICollectionViewCell()}
+        if universe.count > 1 {
+            cell.categoryButton.titleLabel?.text = universe[indexPath.row].name
         }
-        return cell!
+        return cell
     }
     // MARK: Fighter Detail
 
@@ -112,7 +115,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
 extension HomeViewController: HomeViewModelDelegate {
     func getUniverse(universe: [UniverseResponse]?, error: Error?) {
-        
+        guard let universe = universe else {return}
+        self.universe = universe
+        collectionView.reloadData()
     }
     
     func getFighters(fighters: [Fighter]?, error: Error?) {
