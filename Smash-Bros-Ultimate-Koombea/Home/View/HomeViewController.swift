@@ -26,9 +26,6 @@ class HomeViewController: UIViewController {
         registerCell()
         self.viewModel.getUniverses()
         self.viewModel.getFighters()
-        
-        self.tableView.reloadData()
-        self.collectionView.reloadData()
     }
     
     func setup() {
@@ -125,6 +122,5 @@ extension HomeViewController: HomeViewModelDelegate {
         let fighterWithImages = getImages(fighters: fighters)
         self.fighter = fighterWithImages
         tableView.reloadData()
-        collectionView.reloadData()
     }
 }
